@@ -1,11 +1,43 @@
-<style>
-    body {
-        background: lightgreen;
-    }
+<!DOCTYPE html>
+<html lang="en">
 
-    @media (max-width:600px) {
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dessign Example</title>
+    <style>
         body {
-            background: lightcoral;
+            background: lightgreen;
         }
-    }
-</style>
+
+        h1 {
+            color: darkgreen;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        @media (max-width:600px) {
+            body {
+                background: lightcoral;
+            }
+
+            h1 {
+                color: white;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Responsive Web page</h1>
+    <p>This Page Changes its design based on screen size</p>
+
+</body>
+
+</html>
